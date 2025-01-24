@@ -31,6 +31,7 @@ import os
 extensions = [
     'sphinx.ext.todo',
     'sphinxext.rediraffe',
+    'sphinxcontrib.spelling'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -275,3 +276,11 @@ linkcheck_ignore = [r'https://web.libera.chat/#btrfs',
 # -- Options for sphinxext.rediraffe --------------------------------------
 rediraffe_redirects = "redirects.txt"
 rediraffe_branch = "origin/master"
+
+# -- Options for sphinxcontrib.spelling -----------------------------------
+spelling_lang='en_US'
+tokenizer_lang='en_US'
+spelling_word_list_filename='rockstor_wordlist.txt'
+spelling_ignore_acronyms=True
+spelling_ignore_contributor_names=True
+spelling_show_suggestions=True
