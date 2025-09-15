@@ -38,10 +38,7 @@ The sources and documentation are distributed under the 2-clause BSD-like licens
 nginx Documentation
 --------------------
 
-For online documentation and support please refer to `nginx.org <https://nginx.org>`_. Commercial support is available from `F5, Inc. <https://www.f5.com/>`_.
-
-Also, check out youtube for instructional videos on `Nginx <https://www.youtube.com/user/nginxinc>`_.
-
+For online documentation and support please refer to `nginx.org <https://nginx.org>`_.
 
 
 .. _nginx_install:
@@ -102,12 +99,12 @@ You will get the following if all is correct.
 
 
 Advanced nginx configuration
-=============================
+----------------------------
 
 If you need or want to make changes to the config you will need to put your changed config or data files in the appropriate shared directories and turn the server off and back on via the Rockon page to make them active (other ways are described below).
 
 Introduction
---------------
+^^^^^^^^^^^^
 
 There are many parts to this:
 
@@ -127,7 +124,7 @@ For more information, here is the link to the :ref:`advanced configuration <rock
 
 
 Using nginx commands
-======================
+^^^^^^^^^^^^^^^^^^^^
 
 
 These commands will only talk to the main nginx server unless formated differently. For interaction with the nginx Rockon see Docker commands below.
@@ -217,7 +214,7 @@ These commands will only talk to the main nginx server unless formated different
 
 
 Docker command examples for nginx Rockon
-========================================
+----------------------------------------
 
 1. For help with Docker go to Docker.com and create an ID. For users subscribed to Dockers free plan, here are some resources that are available to you:
 

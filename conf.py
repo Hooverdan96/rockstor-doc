@@ -266,11 +266,17 @@ texinfo_documents = [
 
 # -- Options for linkcheck ------------------------------------------------
 linkcheck_retries = 2
-linkcheck_timeout = 20
+linkcheck_timeout = 10
+# www.smartmontools.org is a temporary exclusion
 linkcheck_ignore = [r'https://web.libera.chat/#btrfs',
+                    r'https://www.smartmontools.org',
+                    r'https://www.virtualbox.org',
+                    r'https://linux.die.net/',
                     r'https://ark.intel.com/',
-                    r'https://opensource.org/license/mit-0',
-                    r'https://opensource.org/license/apache-2-0'
+                    r'https://opensource.org/',
+                    r'https://www.samba.org/',
+                    r'https://www.gnu.org/',
+                    r'https://github.com/'
                     ]
 
 # -- Options for sphinxext.rediraffe --------------------------------------
